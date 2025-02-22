@@ -2,7 +2,7 @@ import net.fabricmc.loom.api.LoomGradleExtensionAPI
 
 plugins {
     id("architectury-plugin") version "3.4-SNAPSHOT"
-    id("dev.architectury.loom") version "1.5-SNAPSHOT" apply false
+    id("dev.architectury.loom") version "1.9-SNAPSHOT" apply false
     idea
     java
 }
@@ -26,6 +26,7 @@ subprojects {
             includeGroup("lol.bai")
             includeGroup("mcp.mobius.waila")
         }
+        maven("https://maven.blamejared.com/")
         maven("https://cursemaven.com").content { includeGroup("curse.maven") }
 //        maven("https://maven.enginehub.org/repo/")
         maven("https://maven.parchmentmc.org")

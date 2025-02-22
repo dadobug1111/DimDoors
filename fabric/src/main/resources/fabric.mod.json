@@ -40,6 +40,9 @@
     ],
     "rei_client": [
       "org.dimdev.dimdoors.compat.rei.TesselatingReiCompatClient"
+    ],
+    "jei_mod_plugin": [
+      "org.dimdev.dimdoors.compat.jei.TesselatingJeiCompatClient"
     ]
   },
   "mixins": [

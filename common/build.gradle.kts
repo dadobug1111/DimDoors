@@ -27,6 +27,8 @@ dependencies {
     modCompileOnly("me.shedaniel:RoughlyEnoughItems-api:${project.properties["rei_version"]}")
     modCompileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin:${project.properties["rei_version"]}")
 
+    modCompileOnly("mezz.jei:jei-${project.properties["minecraft_version"]}-common-api:${project.properties["jei_version"]}")
+
 //    modApi("curse.maven:jei-${project.properties["jei_project"]}:${project.properties["jei_fabric"]}")
 }
 
